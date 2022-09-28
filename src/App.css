@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+@font-face{
+    font-family: "poppins";
+    src:url('./Assets/Font/Poppins-Regular.ttf')
+}
+
+@font-face{
+    font-family: "lemonmilk-regular";
+    src:url('./Assets/Font/LEMONMILK-Regular.otf')
+}
+
+body,button{
+    font-family: var(--poppin);
+}
+body{
+background-color: #06071c;
+}
+:root {
+    --p: 15px;
+    --lemon:"lemonmilk-regular";
+    --poppin:"poppins";
+    --linear: linear-gradient(45deg, #03affe , #9359d5);
+    --head:40px;
+}
+
+.btn_image{
+    padding: 20px 30px;
+    color: white;
+    background:url('./Assets/img/loginbtn.png');
+    background-size: cover;
+    cursor: pointer;
+    border:none;
+}
