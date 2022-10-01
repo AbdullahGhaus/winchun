@@ -1,0 +1,203 @@
+.Signup{
+    background: url('../../Assets//img/createaccbg.png');
+    background-size: cover;
+    background-position: top;
+}
+.Signup_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #0f0f3d;
+    margin: 2em 12%;
+    padding: 1.5em 5%;
+    border: 1px solid #3a88bd;
+       border-radius: 30px;
+       text-align: center;
+}
+.Signup_cont p{
+    color: whitesmoke;
+}
+.Signup_cont p span{
+    font-family: var(--poppin);
+    background: -webkit-linear-gradient(45deg, #03affe , #9359d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.signup_options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.signupoptions_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    color: white;
+    position: relative;
+    height: 220px;
+    padding: 30px 70px;
+    background-color: #0f0f3d;
+    border: 1px solid #3a88bd;
+       border-radius: 30px;
+       transition: 0.4s;
+       opacity: 0.4;
+}
+.signupoptions_inner:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.signupoptions_inner img{
+    position: absolute;
+    top: -30px;
+}
+.signupoptions_inner h4{
+    font-family: var(--lemon);
+    
+}
+
+/* OPPORTUNITY CSS */
+
+.Opportunity_inner{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 20px;
+padding: 0 10%;
+}
+.OpportunityOptions{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 20px;
+width: 800px;
+padding: 8px;
+border-radius: 10px;
+background-color: #0c0d33;
+border-top: 1px solid #4059aa;
+border-left: 1px solid #4059aa;
+border-right: 1px solid #4059aa;
+color: white;
+font-size: 16px;
+text-align: center;
+transition: 0.4s;
+
+}
+.OpportunityOptions:hover{
+    background-color: #9359d5;
+}
+.OpportunityOptions img{
+    width: 56px;
+}
+
+/* Question 1 CSS */
+
+.Question_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0 10%;
+    }
+    .QuestionOptions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 800px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #0c0d33;
+    border-top: 1px solid #4059aa;
+    border-left: 1px solid #4059aa;
+    border-right: 1px solid #4059aa;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.4s;
+    
+    }
+    .QuestionOptions:hover{
+        background-color: #9359d5;
+        cursor: pointer;
+    }
+    .QuestionOptions img{
+        width: 56px;
+    }
+
+    .QuestionOptions_active{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 800px;
+        padding: 8px;
+        border-radius: 10px;
+        background-color: #9359d5;
+        border-top: 1px solid #4059aa;
+        border-left: 1px solid #4059aa;
+        border-right: 1px solid #4059aa;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        transition: 0.4s;
+    }
+
+    .QuestionOptions_active:hover{
+        background-color: #9359d5;
+ 
+    }
+    .QuestionOptions_active img{
+        width: 56px;
+    }
+
+    @media screen and (max-width:400px) {
+        .QuestionOptions{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .QuestionOptions_active{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        }
+
+
+
+@media screen and (max-width:600px) {
+    .Signup_cont{
+        margin: 4em 1%;
+        gap: 70px;
+    }
+    .signupoptions_inner{
+        padding: 54px 23px;
+        text-align: center;
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .OpportunityOptions{
+        width: 100%;
+        justify-content: center;flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1100px) {
+.OpportunityOptions{
+    width: 100%;
+}
+.QuestionOptions{
+    width: 100%;
+}
+.QuestionOptions_active{
+    width: 100%;
+}
+}

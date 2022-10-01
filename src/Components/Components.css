@@ -122,6 +122,7 @@ z-index: 1;
     color: white;
     font-size: var(--head);
     z-index: 1;
+    text-align: center;
 }
 .CompHead h1 span{
     background: -webkit-linear-gradient(45deg, #03affe , #9359d5);
@@ -178,6 +179,22 @@ z-index: 1;
     color: white;
 }
 
+/* SIGNUP HEADER */
+
+.SignupHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 5% 1em 5%;
+    flex-wrap: wrap;
+}
+.SignupHeader p{
+    color: white;
+}
+.SignupHeader p strong{
+    cursor: pointer;
+}
+
 @media screen and (max-width:810px) {
     .Header{
         gap: 10px;
@@ -230,6 +247,13 @@ z-index: 1;
 .mobile_loginbtn{
     display: unset;
 }
+.SignupHeader{
+    justify-content: center;
+    gap: 20px;
+}
+.CompHead h1{
+    font-size: 30px;
+}
 }
 
 @media screen and (max-width:350px) {
@@ -241,6 +265,7 @@ z-index: 1;
     }
     .CompHead h1{
         text-align: center;
+       
     }
     .CompHead p{
         width: 100%;

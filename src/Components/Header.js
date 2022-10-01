@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import {AiOutlineSearch,AiOutlineUser} from "react-icons/ai"
 import {BsChevronDoubleRight} from "react-icons/bs"
 import { useState } from 'react';
+import {Link} from "react-router-dom";
 function Header() {
     const [searchtoggle, setsearchtoggle] = useState(false)
   return (
@@ -22,7 +23,7 @@ function Header() {
         </div>
         <div className="buttons_container">
             <button className="btn_login">Login</button>
-            <button className="btn_signup">Signup <BsChevronDoubleRight className='signupbtn_icon' /></button>
+            <Link to="/signup"><button className="btn_signup">Signup <BsChevronDoubleRight className='signupbtn_icon' /></button></Link>
             <AiOutlineUser className='mobile_loginbtn' size={20}/>
         </div>
     </div>

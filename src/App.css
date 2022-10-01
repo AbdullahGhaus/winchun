@@ -34,3 +34,14 @@ background-color: #06071c;
     cursor: pointer;
     border:none;
 }
+
+.btn_image{
+    padding: 20px 30px;
+    color: white;
+    background:url('./Assets/img/loginbtn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border:none;
+}

@@ -389,11 +389,17 @@ justify-content: center;
 gap: 20px;
 flex-wrap: wrap;
 position: relative;
+
 }
 .bcontent2_inner{
     display: flex;
     align-items: center;
     flex-direction: column;
+    opacity: 0.4;
+    transition: 0.4s;
+}
+.bcontent2_inner:hover{
+    opacity: 1;
 }
 .bcontent2inner_inner{
     background-color: #0f0f3d; 
@@ -446,6 +452,11 @@ top: -150px;
     border-radius: 10px;
     color: white;
     text-align: center;
+    transition: 0.4s;
+    opacity: 0.4;
+}
+.bcontent3_inner:hover{
+    opacity: 1;
 }
 .bcontent3_inner img{
     font-size: 2vmax;
@@ -513,6 +524,14 @@ top: -150px;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+
+}
+.great_arr_inner{
+    opacity: 0.4;
+    transition: 0.4s;
+}
+.great_arr_inner:hover{
+    opacity: 1;
 }
 .great_arr p{
     text-align: center;

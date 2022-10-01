@@ -27,7 +27,7 @@ function Great() {
         </p>
         <div className="great_arr">
           {greatdata.map((Cvalue) => (  
-                <p>{Cvalue.desc}</p>
+               <div className="great_arr_inner"> <p>{Cvalue.desc}</p></div>
           ))}
         </div>
         <button className="btn_image" style={{ marginTop: "20px" }}>
