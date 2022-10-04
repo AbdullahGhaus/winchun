@@ -6,7 +6,7 @@
 .Signup_cont{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 30px;
     background-color: #0f0f3d;
     margin: 2em 12%;
@@ -59,6 +59,13 @@
 .signupoptions_inner h4{
     font-family: var(--lemon);
     
+}
+.signup_third_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* OPPORTUNITY CSS */
@@ -158,6 +165,124 @@ transition: 0.4s;
         width: 56px;
     }
 
+
+    /* LIKE TO WORK CSS */
+
+.LikeToWork_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.LikeToWorkOptions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 6em 0 0 0;
+    background-color: #0c0d33;
+    border: 1px solid #4059aa;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    transition: 0.4s;
+    padding: 20px;
+    width: 260px;
+    height: 330px;
+    position: relative;
+}
+.LikeToWorkOptions:hover{
+    background-color: #4059aa;
+    cursor: pointer;
+}
+.LikeToWorkOptions_active{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 6em 0 0 0;
+    background-color: #4059aa;
+    border: 1px solid #4059aa;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    transition: 0.4s;
+    padding: 20px;
+    width: 260px;
+    height: 330px;
+    position: relative;
+}
+.LikeToWorkOptions_active:hover{
+    background-color: #4059aa;
+}
+.LikeToWorkOptions_active h3{
+    font-family: var(--lemon);
+}
+.liketoworkimg_active{
+    position: absolute;
+    top: -80px;
+}
+.LikeToWorkOptions h3{
+    font-family: var(--lemon);
+}
+.liketoworkimg{
+    position: absolute;
+    top: -80px;
+}
+
+/* EXPERICNE CSS */
+.Experience_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.addexperiencebtn{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: 2px dotted white;
+    height: 200px;
+    width: 170px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.addexperiencebtn img{
+    width: 35px;
+}
+.addexperiencebtn:hover{
+    background-color: #4059aa;
+}
+.files_checkbox_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: whitesmoke;
+    flex-direction: row-reverse;
+}
+.files_checkbox_cont input{
+    width: 15px;
+    height: 15px;
+}
+.exp_third_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
     @media screen and (max-width:400px) {
         .QuestionOptions{
             justify-content: center;
@@ -181,6 +306,10 @@ transition: 0.4s;
         text-align: center;
         opacity: 1;
     }
+    /* .LikeToWorkOptions_active,.LikeToWorkOptions{
+        width: 100%;
+        height: auto;
+    } */
 
 }
 

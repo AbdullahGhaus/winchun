@@ -30,7 +30,7 @@ function Question2() {
         </button>
     </div>
     
-  <Link to="/question2"><button className='btn_image' style={{display:"inline"}}>Skip For Now</button></Link>
+  <Link to="/liketowork"><button className='btn_image' style={{display:"inline"}}>Skip For Now</button></Link>
     </div>
 </div>
   )
