@@ -48,7 +48,7 @@ function LikeToWork() {
             }}
           >
             <img src={require(`../../../Assets/img/${cvalue.img}.png`)} className="liketoworkimg"/> 
-            <h3>{cvalue.head}</h3>
+            <h4>{cvalue.head}</h4>
             <p>{cvalue.desc}</p>
           </button>
           </>)}
@@ -56,7 +56,7 @@ function LikeToWork() {
         <div className="signup_third_div">
           <p>Skip For Now</p>
           <Link to="/experience">
-            <button className="btn_image" style={{ display: "inline" }}>
+            <button className="btn_image" style={{ fontWeight: "bold" }}>
               Next, Create A Profile
             </button>
             

@@ -16,7 +16,7 @@ body,button{
     font-family: var(--poppin);
 }
 body{
-background-color: #06071c;
+background-color: #06071c !important;
 }
 :root {
     --p: 15px;
@@ -27,11 +27,17 @@ background-color: #06071c;
 }
 
 .btn_image{
-    padding: 25px 30px;
+    padding: 12px 30px;
     color: white;
     background:url('./Assets/img/loginbtn.png');
     background-size: 100% 100%;
     cursor: pointer;
     border:none;
     font-size: 15px;
+    font-family: var(--poppin);
+}
+
+Link,a{
+    text-decoration: none !important;
+    outline: none;
 }

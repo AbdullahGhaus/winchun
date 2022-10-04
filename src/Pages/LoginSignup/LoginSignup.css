@@ -40,7 +40,7 @@
     gap: 20px;
     color: white;
     position: relative;
-    height: 220px;
+    height: 320px;
     padding: 30px 70px;
     background-color: #0f0f3d;
     border: 1px solid #3a88bd;
@@ -58,6 +58,7 @@
 }
 .signupoptions_inner h4{
     font-family: var(--lemon);
+    width: 300px;
     
 }
 .signup_third_div{
@@ -191,8 +192,8 @@ transition: 0.4s;
     text-align: center;
     transition: 0.4s;
     padding: 20px;
-    width: 260px;
-    height: 330px;
+    width: 290px;
+    height: 430px;
     position: relative;
 }
 .LikeToWorkOptions:hover{
@@ -214,21 +215,21 @@ transition: 0.4s;
     text-align: center;
     transition: 0.4s;
     padding: 20px;
-    width: 260px;
-    height: 330px;
+    width: 290px;
+    height: 430px;
     position: relative;
 }
 .LikeToWorkOptions_active:hover{
     background-color: #4059aa;
 }
-.LikeToWorkOptions_active h3{
+.LikeToWorkOptions_active h4{
     font-family: var(--lemon);
 }
 .liketoworkimg_active{
     position: absolute;
     top: -80px;
 }
-.LikeToWorkOptions h3{
+.LikeToWorkOptions h4{
     font-family: var(--lemon);
 }
 .liketoworkimg{
@@ -283,6 +284,148 @@ transition: 0.4s;
     gap: 20px;
     flex-wrap: wrap;
 }
+
+/* ADD WORK EXP MODAL CSS */
+.addworkexpmodal_cont{
+
+}
+.modal-content{
+    border: 1px solid #03affe !important;
+    border-radius: 20px !important;
+    background-color: transparent !important;
+}
+.contained-modal-title-vcenter{
+
+}
+.addworkexp_head{
+    background-color: #221068;
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: var(--lemon);
+    font-weight: 800;
+    -webkit-text-stroke: 2px white;
+    letter-spacing: 3px;
+    border: none !important;
+    border-radius: 20px 20px 0px 0px !important;
+}
+.addworkexp_cont{
+    background-color: #0f0f3d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 50px !important;
+}
+.addworkexpmodal_footer{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #0f0f3d !important;
+    border: none !important;
+    border-radius: 0px 0px 20px 20px!important;
+}
+.addworkexp_input_cont{
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    gap: 10px;
+}
+.addworkexp_input_cont label{
+    font-weight: bold;
+    padding: 0 2px;
+    font-family: var(--poppin);
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.addworkexp_input_inner{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border-top: 1px solid #4059aa;
+    border-left: 1px solid #4059aa;
+    border-right: 1px solid #4059aa;
+}
+.addworkexp_input_inner input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    width: 100%;
+    font-family: var(--poppin);
+    font-size: 13px;
+}
+.addworkexp_input_inner input::placeholder{
+    color: white;
+}
+.addworkexp_input_inner input:focus{
+    outline: none;
+}
+
+.addworkexp_input_inner textarea{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    width: 100%;
+    font-family: var(--poppin);
+    font-size: 13px;
+}
+.addworkexp_input_inner textarea::placeholder{
+    color: white;
+}
+.addworkexp_input_inner textarea:focus{
+    outline: none;
+}
+.addworkexp_input_inner img{
+    width: 40px;
+}
+
+.addworkexp_input_cont_inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.addworkexp_input_inner select{
+    background-color: #0f0f3d !important;
+    border: none !important;
+    color: white !important;
+    width: 100%;
+    padding: 6px 10px;
+
+}
+.addworkexp_input_inner select:focus{
+    outline: none;
+}
+
+.addworkexp_input_cont_checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-direction: row-reverse;
+    font-size: 14px;
+    margin: 10px 5px;
+    font-family: var(--poppin);
+    color:whitesmoke;
+}
+input[type="radio"]{
+    width: 15px ;
+    height: 15px;
+}
+.addworkexp_date{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
     @media screen and (max-width:400px) {
         .QuestionOptions{
             justify-content: center;
@@ -310,7 +453,15 @@ transition: 0.4s;
         width: 100%;
         height: auto;
     } */
-
+    .addworkexp_date,.addworkexp_input_cont_inner{
+        flex-wrap: wrap;
+    }
+    .modal-title{
+        text-align: center;
+    }
+    .addworkexp_cont{
+        padding: 10px !important;
+    }
 }
 
 @media screen and (max-width:800px) {

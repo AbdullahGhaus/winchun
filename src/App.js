@@ -7,6 +7,7 @@ import Question1 from "./Pages/LoginSignup/Components/Question1";
 import Question2 from "./Pages/LoginSignup/Components/Question2";
 import LikeToWork from "./Pages/LoginSignup/Components/LikeToWork";
 import Experience from "./Pages/LoginSignup/Components/Experience";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
