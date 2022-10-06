@@ -13,7 +13,7 @@ import addworkexp_flag from "../../../Assets/img/addworkexp_flag.png";
 import addworkexp_message from "../../../Assets/img/addworkexp_message.png";
 import Form from "react-bootstrap/Form";
 
-function Experience() {
+function Education() {
   const [modalShow, setModalShow] = useState(false);
   const [currentlyworking, setcurrentlyworking] = useState(false)
 
@@ -33,7 +33,7 @@ function Experience() {
         </Modal.Header>
         <Modal.Body className="addworkexp_cont">
           <div className="addworkexp_input_cont">
-            <label for="title">Title:</label>
+            <label for="title">kjdsahfskjdhflkjdshf:</label>
             <div className="addworkexp_input_inner">
               <img src={user} />
               <input
@@ -223,4 +223,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Education;

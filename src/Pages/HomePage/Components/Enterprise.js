@@ -13,7 +13,7 @@ function Enterprise() {
     },
     {
       head: "Control Your Workflow",
-      desc: "Control your workflow: hire, classify and pay your talent",
+      desc: "Hire, classify and pay your talent",
       Icon: TbHierarchy,
     },
     {

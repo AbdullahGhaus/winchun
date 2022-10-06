@@ -8,6 +8,7 @@ import Question2 from "./Pages/LoginSignup/Components/Question2";
 import LikeToWork from "./Pages/LoginSignup/Components/LikeToWork";
 import Experience from "./Pages/LoginSignup/Components/Experience";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Education from "./Pages/LoginSignup/Components/Education";
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/question2" element={<Question2 />} />
         <Route path="/liketowork" element={<LikeToWork />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Education />} />
       </Routes>
     </Router>
   );

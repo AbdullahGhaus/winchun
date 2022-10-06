@@ -258,6 +258,7 @@ transition: 0.4s;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.4s;
+    background-color: transparent;
 }
 .addexperiencebtn img{
     width: 35px;
